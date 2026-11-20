@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Fundo escuro -->
+    <path
+        android:fillColor="#0D1117"
+        android:pathData="M0,0h512v512h-512z" />
+
+    <!-- Linha do chão -->
+    <path
+        android:strokeColor="#334155"
+        android:strokeWidth="14"
+        android:strokeLineCap="round"
+        android:pathData="M104,404 L408,404" />
+
+    <!-- Resíduos caindo no chão -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M218,346 h24 v24 h-24 z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M276,360 h20 v20 h-20 z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M258,316 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M184,372 h16 v16 h-16 z" />
+
+    <!-- Lixeira virada de cabeça para baixo inclinada para o chão -->
+    <group
+        android:pivotX="256"
+        android:pivotY="205"
+        android:rotation="-12">
+        <!-- Alça superior (base invertida) -->
+        <path
+            android:strokeColor="#10B981"
+            android:strokeWidth="16"
+            android:strokeLineCap="round"
+            android:pathData="M214,96 L298,96" />
+        <!-- Corpo da lixeira invertido -->
+        <path
+            android:fillColor="#132A24"
+            android:strokeColor="#10B981"
+            android:strokeWidth="16"
+            android:strokeLineJoin="round"
+            android:pathData="M182,104 L330,104 L354,288 L158,288 Z" />
+        <!-- Nervuras -->
+        <path
+            android:strokeColor="#10B981"
+            android:strokeWidth="14"
+            android:strokeLineCap="round"
+            android:pathData="M220,142 L212,256 M256,142 L256,256 M292,142 L300,256" />
+        <!-- Borda da abertura voltada para baixo -->
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M150,284 h212 v18 h-212 z" />
+        <!-- Tampa aberta para baixo -->
+        <group
+            android:pivotX="154"
+            android:pivotY="294"
+            android:rotation="48">
+            <path
+                android:fillColor="#34D399"
+                android:pathData="M154,294 h128 v16 h-128 z" />
+        </group>
+    </group>
+</vector>

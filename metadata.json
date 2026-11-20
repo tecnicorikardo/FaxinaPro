@@ -1,0 +1,6 @@
+{
+  "name": "FaxinaDroid Pro",
+  "description": "Aplicativo mobile de limpeza profunda de cache, remoção de resíduos inúteis e desinstalação automática em massa inspirado no SD Maid Pro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

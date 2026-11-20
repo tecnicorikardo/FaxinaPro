@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FaxinaDroid Pro</string>
+    <string name="accessibility_service_label">FaxinaDroid Pro — Automação de Limpeza</string>
+    <string name="accessibility_service_description">Automatiza o toque em \"Limpar cache\" nas configurações de aplicativos e confirma desinstalações em massa na fila, sem coleta de dados pessoais.</string>
+</resources>

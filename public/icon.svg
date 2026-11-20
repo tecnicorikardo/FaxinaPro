@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0D1117" />
+  <rect x="16" y="16" width="480" height="480" rx="98" stroke="#262E3A" stroke-width="6" />
+
+  <!-- Ground baseline -->
+  <line x1="104" y1="404" x2="408" y2="404" stroke="#334155" stroke-width="14" stroke-linecap="round" />
+
+  <!-- Falling debris / junk blocks dropping onto the ground -->
+  <rect x="218" y="346" width="24" height="24" rx="5" transform="rotate(-14 230 358)" fill="#F59E0B" />
+  <rect x="276" y="360" width="20" height="20" rx="4" transform="rotate(18 286 370)" fill="#10B981" />
+  <circle cx="258" cy="316" r="10" fill="#F59E0B" />
+  <rect x="184" y="372" width="16" height="16" rx="4" transform="rotate(25 192 380)" fill="#34D399" />
+  <circle cx="312" cy="336" r="7" fill="#94A3B8" />
+
+  <!-- Upside-down trash bin tilted slightly toward the ground -->
+  <g transform="translate(256 205) rotate(-12) translate(-256 -205)">
+    <!-- Top handle (originally bottom base, now pointing up) -->
+    <path d="M214 96 H298" stroke="#10B981" stroke-width="16" stroke-linecap="round" />
+
+    <!-- Inverted tapered bin body (narrower at top, wider opening facing down) -->
+    <path
+      d="M178 122 C178 112 186 104 196 104 H316 C326 104 334 112 334 122 L354 274 C355 282 349 290 340 290 H172 C163 290 157 282 158 274 L178 122 Z"
+      fill="#132A24"
+      stroke="#10B981"
+      stroke-width="16"
+      stroke-linejoin="round"
+    />
+
+    <!-- Vertical bin ribs -->
+    <line x1="220" y1="142" x2="212" y2="256" stroke="#10B981" stroke-width="14" stroke-linecap="round" />
+    <line x1="256" y1="142" x2="256" y2="256" stroke="#10B981" stroke-width="14" stroke-linecap="round" />
+    <line x1="292" y1="142" x2="300" y2="256" stroke="#10B981" stroke-width="14" stroke-linecap="round" />
+
+    <!-- Bottom rim of inverted bin (opening facing down) -->
+    <rect x="150" y="284" width="212" height="18" rx="9" fill="#10B981" />
+
+    <!-- Hinged lid swung open downward to the left -->
+    <g transform="translate(154 294) rotate(48)">
+      <rect x="0" y="0" width="128" height="16" rx="8" fill="#34D399" />
+      <path d="M46 16 H82" stroke="#34D399" stroke-width="12" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>
